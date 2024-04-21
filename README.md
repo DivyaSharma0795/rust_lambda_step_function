@@ -27,7 +27,7 @@ This project demonstrates the use of AWS Lambda and Step Functions to orchestrat
 
 ## Demo
 
-A demo of this project is available on [YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+A demo of this project is available [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 ## Grading Rubric
 
