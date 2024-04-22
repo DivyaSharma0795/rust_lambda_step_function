@@ -20,6 +20,9 @@ This project demonstrates the use of AWS Lambda and Step Functions to orchestrat
 2. Run `sam build` to build the Lambda function.
 3. Run `sam deploy --guided` to deploy the Lambda function and Step Functions state machine to AWS.
 
+![Sam Deploy](.\Images\samdeploy.png)
+
+![Sam Deploy](.\Images\samdeploy2.png)
 ## Usage
 
 1. Upload your data to the S3 bucket specified in the `template.yaml` file.
