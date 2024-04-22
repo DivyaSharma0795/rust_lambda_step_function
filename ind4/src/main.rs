@@ -1,9 +1,7 @@
-use anyhow::Error;
+use anyhow::{Error, anyhow};
 use serde_derive::{Deserialize, Serialize};
-use tokio::runtime::Runtime;
 use futures::future::{BoxFuture, FutureExt};
-use lambda_runtime::{HandlerFn, Context, run};
-
+use lambda_runtime::{handler_fn, Context, run};
 
 #[derive(Deserialize, Serialize)]
 struct CustomEvent {
@@ -17,8 +15,8 @@ struct CustomOutput {
 }
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let handler = HandlerFn::new(my_handler);
+async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> { // Updated return type
+    let handler = handler_fn(my_handler);
     run(handler).await?;
     Ok(())
 }
@@ -26,7 +24,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 fn my_handler(e: CustomEvent, _c: Context) -> BoxFuture<'static, Result<CustomOutput, Error>> {    
     async move {
         if e.first_name == "" {
-            return Err(anyhow::anyhow!("Missing first name"));
+            return Err(anyhow!("Missing first name"));
         }
 
         Ok(CustomOutput {
