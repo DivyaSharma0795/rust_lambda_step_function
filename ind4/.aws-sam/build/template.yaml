@@ -1,12 +1,11 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: An AWS Lambda function and an S3 bucket
-
 Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: ./bootstrap.zip  # This should be a ZIP file containing your binary and a bootstrap file
+      CodeUri: ..\..\bootstrap.zip
       Handler: not.used
       Runtime: provided.al2
       Events:
@@ -15,7 +14,6 @@ Resources:
           Properties:
             Path: /hello
             Method: get
-
   MyDataBucket:
     Type: AWS::S3::Bucket
     Properties:
