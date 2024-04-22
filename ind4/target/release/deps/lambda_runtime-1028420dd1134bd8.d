@@ -1,0 +1,10 @@
+C:\Users\divya\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_inidvidualproject04\ind4\target\release\deps\liblambda_runtime-1028420dd1134bd8.rmeta: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\client.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\requests.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\types.rs
+
+C:\Users\divya\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_inidvidualproject04\ind4\target\release\deps\liblambda_runtime-1028420dd1134bd8.rlib: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\client.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\requests.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\types.rs
+
+C:\Users\divya\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_inidvidualproject04\ind4\target\release\deps\lambda_runtime-1028420dd1134bd8.d: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\client.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\requests.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\types.rs
+
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\lib.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\client.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\requests.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.4.1\src\types.rs:
