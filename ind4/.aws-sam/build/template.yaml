@@ -17,4 +17,4 @@ Resources:
   MyDataBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: my-data-bucket
+      BucketName: my-data-bucket-ind4-ds655-0795-random

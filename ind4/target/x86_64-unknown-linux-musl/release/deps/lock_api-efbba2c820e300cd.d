@@ -1,0 +1,10 @@
+C:\Users\divya\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_inidvidualproject04\ind4\target\x86_64-unknown-linux-musl\release\deps\liblock_api-efbba2c820e300cd.rmeta: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\mutex.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\remutex.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\rwlock.rs
+
+C:\Users\divya\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_inidvidualproject04\ind4\target\x86_64-unknown-linux-musl\release\deps\liblock_api-efbba2c820e300cd.rlib: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\mutex.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\remutex.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\rwlock.rs
+
+C:\Users\divya\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_inidvidualproject04\ind4\target\x86_64-unknown-linux-musl\release\deps\lock_api-efbba2c820e300cd.d: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\mutex.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\remutex.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\rwlock.rs
+
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\lib.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\mutex.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\remutex.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.11\src\rwlock.rs:
