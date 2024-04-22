@@ -1,13 +1,13 @@
 # Name of your output file
 OUTPUT = bootstrap
 
-# Name of your source file
-SOURCE = main.rs
-
 # Build rule
-all:
-    rustc -O -o $(OUTPUT) $(SOURCE)
+all: build-HelloWorldFunction
+
+build-HelloWorldFunction:
+	cargo build --release
+	cp target/release/my_lambda_function $(OUTPUT)
 
 # Clean rule
 clean:
-    rm -f $(OUTPUT)
+	cargo clean

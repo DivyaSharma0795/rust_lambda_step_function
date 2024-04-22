@@ -1,5 +1,9 @@
-use lambda_runtime::{error::HandlerError, lambda, Context};
+use anyhow::Error;
 use serde_derive::{Deserialize, Serialize};
+use tokio::runtime::Runtime;
+use futures::future::{BoxFuture, FutureExt};
+use lambda_runtime::{HandlerFn, Context, run};
+
 
 #[derive(Deserialize, Serialize)]
 struct CustomEvent {
@@ -12,18 +16,21 @@ struct CustomOutput {
     message: String,
 }
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
-    lambda!(my_handler);
-
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let handler = HandlerFn::new(my_handler);
+    run(handler).await?;
     Ok(())
 }
 
-fn my_handler(e: CustomEvent, _c: Context) -> Result<CustomOutput, HandlerError> {
-    if e.first_name == "" {
-        return Err(HandlerError::from("Missing first name"));
-    }
+fn my_handler(e: CustomEvent, _c: Context) -> BoxFuture<'static, Result<CustomOutput, Error>> {    
+    async move {
+        if e.first_name == "" {
+            return Err(anyhow::anyhow!("Missing first name"));
+        }
 
-    Ok(CustomOutput {
-        message: format!("Hello, {}!", e.first_name),
-    })
+        Ok(CustomOutput {
+            message: format!("Hello, {}!", e.first_name),
+        })
+    }.boxed()
 }
