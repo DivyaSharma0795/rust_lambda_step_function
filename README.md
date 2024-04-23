@@ -23,6 +23,8 @@ This project demonstrates the use of AWS Lambda and Step Functions to orchestrat
 ![Sam Deploy](Images/samdeploy.png)
 
 ![Sam Deploy](Images/samdeploy2.png)
+
+![Sam app AWS](Images/AWSStack.png)
 ## Usage
 
 1. Upload your data to the S3 bucket specified in the `template.yaml` file.
@@ -30,7 +32,7 @@ This project demonstrates the use of AWS Lambda and Step Functions to orchestrat
 
 ## Demo
 
-A demo of this project is available [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+A demo of this project is available [here](https://www.youtube.com/watch?v=dQw4w9Wg).
 
 ## Grading Rubric
 
