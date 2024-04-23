@@ -27,6 +27,22 @@ This project demonstrates the use of AWS Lambda and Step Functions to orchestrat
 Successfully deployed Sam app:
 ![Sam app AWS](Images/AWSStack.png)
 
+## IAM Role Setup
+
+1. Navigate to the IAM Management Console in AWS.
+2. Click on "Roles" and find the `my-step-function-iam` role.
+3. Check the permissions attached to the role and ensure it has the necessary permissions for your state machine.
+
+![IAM Role](Images/step_function_IAM.png)
+
+## S3 Bucket Setup
+
+1. Navigate to the S3 Management Console in AWS.
+2. Find the bucket specified in the `template.yaml` file.
+3. Upload your data to this bucket.
+
+![S3 Bucket](Images/Awss3bucket.png)
+
 
 ## Usage
 
@@ -48,10 +64,3 @@ Sample file:
 
 A demo of this project is available [here](https://www.youtube.com/watch?v=dQw4w9Wg).
 
-## Grading Rubric
-
-- Rust Lambda Functionality (30 points)
-- Step Functions Workflow (30 points)
-- Data Processing Pipeline (20 points)
-- Documentation (10 points)
-- Demo Video (10 points)
