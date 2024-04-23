@@ -20,3 +20,15 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: my-data-bucket-ind4-ds655-0795-random
+
+  MyStateMachine:
+    Type: AWS::Serverless::StateMachine
+    Properties:
+      DefinitionUri: ./pipeline/workflow.json
+      Role: arn:aws:iam::313838823615:role/my-step-function-iam  # Replace with your new role ARN
+      Events:
+        StartStateMachine:
+          Type: Api
+          Properties:
+            Path: /start
+            Method: post
