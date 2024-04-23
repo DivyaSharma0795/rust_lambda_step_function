@@ -24,11 +24,25 @@ This project demonstrates the use of AWS Lambda and Step Functions to orchestrat
 
 ![Sam Deploy](Images/samdeploy2.png)
 
+Successfully deployed Sam app:
 ![Sam app AWS](Images/AWSStack.png)
+
+
 ## Usage
 
 1. Upload your data to the S3 bucket specified in the `template.yaml` file.
+s3 Bucket: `my-data-bucket-ind4-ds655-0795-random`
+
+Sample file:
+![Sample Input](Images/sample_input.png)
+
+
 2. Start the Step Functions state machine in the AWS Management Console. The state machine will read the data from S3, process it using the Lambda function, and write the results back to S3.
+![Successful Run](Images/successful_run_v1.png)
+
+![Successful Run](Images/successful_run_v2.png)
+
+
 
 ## Demo
 
